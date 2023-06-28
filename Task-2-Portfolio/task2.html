@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Infobyte Task-2-Portfolio Website using HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <div class="logo">Portfolio</div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#about_section">About</a>
+                <a href="#skills_section">Skills</a>
+                <a href="#projects_section">Projects</a>
+                <a href="#contact_section">Contact</a>
+            </div>
+        </nav> 
+        <div class="htext">
+            <h1>Hi I'm <span>Aamani Chamarthi</span></h1><br> 
+        </div>
+    </header>
+    <main>
+    <section id="about_section" class="container">
+    <div class="about_info">
+        <h3>About</h3><br>
+        <p>My name is Chamarthi Aamani.I live at Vijayawada.Recently I completed my Bachelor of Technology(B.Tech) in Electronics and Communication Engineering(ECE) at Vignan's Foundation for Science,Technology and Research(VFSTR).
+        My technical skills include Java,Python,HTML,CSS,Arduino.I am very keen to learn new technologies.I also develop various projects on various technologies.</p>
+    <br>
+    </div>
+    </section>
+    <hr>
+    <section id="skills_section" class="container">
+    <div class="skills_info">
+        <h3><b>Technical Skills</b></h3><br>
+        <div class="skills-container">
+        <img src="images2/java logo.png" width="100%" alt="java logo.png">
+        <img src="images2/python logo.jpg" width="100%" alt="python logo.jpg">
+        <img src="images2/html logo.jpg" width="100%" alt="html logo.jpg">
+        <img src="images2/css logo.jpg" width="100%" alt="css logo.jpg">
+        <img src="images2/arduino logo.jpg" width="100%" alt="arduino logo.jpg">
+        </div>
+    </div>
+    </section>
+    <hr>
+    <section id="projects_section" class="container">
+    <div class="projects">
+        <h3>My Projects</h3><br>
+        <div class="projects-container">
+        <div class="projects">
+            <h4>Hardware Driven 3D Perception Enhancement Using Stereo Cameras</h4>
+            <p>In this project we have designed a dynamic baseline stereo camera system enabling the cameras to change their viewing direction and baseline at will.</p>
+        </div>
+        <div class="projects">
+            <h4>Profile Card using HTML and CSS</h4>
+            <p>In this project I have designed a profile card using HTML and CSS.Flip cards are the cards in the website that will flip when we hover our mouse over them. There will be information, links or images in the back face of the card which will be visible when we hover over the cards.</p>
+        </div>
+        <div class="projects">
+            <h4>Density Based Traffic Light Control System</h4>
+            <p>In this project we have designed a density based traffic light control system using Arduino where the timing of the signal will change automatically on sensing the traffic density at any junction</p>
+        </div>
+        </div>
+        <br><br>
+        <div class="row">
+        <div class="projects">
+            <h4>Tic Tac Toe Game using Python</h4>
+            <p>This game is very popular and is fairly simple by itself. It is actually a two player game. In this game, there is a board with n x n squares. In our game, it is 3 x 3 squares. The goal of Tic-Tac-Toe is to be one of the players to get three same symbols in a row - horizontally, vertically or diagonally - on a 3 x 3 grid</p>
+        </div>
+        <div class="projects">
+            <h4>Digital Clock using Python</h4>
+            <p>In this Project we designed a digital Clock Using Tkinter Library In Python.This is a simple project to get started with the Tkinter library in Python, which is a built-in package that comes with Python. Tkinter has some cool features that can be used to build simple apps</p>
+        </div>
+        <div class="projects">
+            <h4>Smart City</h4>
+            <p>In this project the main aim is to provide an comprehensive concept of the smart city besides their different applications, benefits and advantages by interconnecting digital devices through the internet of things .Thus the realization of smart city concept has been presented in this project through the internet of things</p>
+        </div>
+        </div>
+    </div>
+    </section>
+    <hr>
+    <section id="contact_section" class="container">
+    <div class="contact">
+    <h3>Contact-Me</h3><br>
+    <form>
+        <div class="form-group">
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" placeholder="Your email id" required>
+        </div>
+        <div class="form-group">
+        <label for="phone">Phone No:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+        </div>
+        <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="3" placeholder="Write Something" required></textarea>
+        </div>    
+        <button type="Submit">Submit</button>
+    </form>
+</div>
+</section>
+</main>
+</body>
+</html>
